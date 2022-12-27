@@ -3,11 +3,17 @@ import SideBars from "../images/SideBars.png";
 import "../Style/Dashboard.css";
 import Photo from "../images/Photo.png";
 import YaseenResume from "../images/YaseenResume.pdf";
+import { Helmet } from "react-helmet";
 
 function Dashboard() {
 
   return (
     <div className="Main_container">
+
+<Helmet>
+        <title>YK Portfolio</title>
+        <meta name="description" content="First Portfolio" />
+    </Helmet>
       <div className="inner_container">
         <div className="Main_Photo">
           <img src={Photo} alt="Logo" className="SideBar" />
