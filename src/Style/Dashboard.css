@@ -43,11 +43,12 @@ body {
   color: white;
   font-size: 5vw;
   font-family: "lato";
+  
 }
 
 .code_new {
   position: absolute;
-  top: 33%;
+  top: 35%;
   left: 56%;
 }
 

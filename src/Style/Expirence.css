@@ -2,13 +2,33 @@
   font-family: "Lato";
 }
 
+/* .Main_Photo_exp{
+  position: absolute;
+  z-index: -100;
+  margin-top: 0px;
+} */
+
+
+.Main_Photo_e {
+  position: absolute;
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
+  margin: 0;
+  padding: 0;
+  margin-top: -59px;
+  margin-left: -47px;
+  z-index: -100;
+}
+
+
 .Main_div_outer {
   display: flex;
   padding: 40px 40px 40px 40px;
+  max-height: 100vh;
 }
 
 .container_two {
-  background-color: aqua;
+  background-color: #FB4570;
   padding: 30px 30px 30px 30px;
   height: fit-height;
   border-top-right-radius: 20px ;
@@ -19,7 +39,7 @@
 }
 
 .container_one {
-  background-color: bisque;
+  background-color: #FD7F20;
   padding: 30px 30px 30px 30px;
   height: fit-height;
   border-top-left-radius: 20px ;
@@ -174,4 +194,10 @@
 }
 .h2_msa {
   font-size: 30px;
+}
+
+
+.Main_Photo_exp{
+  height: 991px;
+  width: -webkit-fill-available;
 }
