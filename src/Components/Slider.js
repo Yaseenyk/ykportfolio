@@ -6,7 +6,7 @@ import ContactsIcon from "@mui/icons-material/Contacts";
 import ConnectWithoutContactIcon from "@mui/icons-material/ConnectWithoutContact";
 import SportsVolleyballIcon from "@mui/icons-material/SportsVolleyball";
 import AccountTreeIcon from "@mui/icons-material/AccountTree";
-import EngineeringIcon from "@mui/icons-material/Engineering";
+// import EngineeringIcon from "@mui/icons-material/Engineering";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 
@@ -26,8 +26,8 @@ function Slider({children}) {
       icon: <ConnectWithoutContactIcon />,
     },
     {
-      path: "/hobbies",
-      name: "Hobbies",
+      path: "/AboutMe",
+      name: "About Me",
       icon: <SportsVolleyballIcon />,
     },
     {
@@ -35,14 +35,14 @@ function Slider({children}) {
       name: "Projects",
       icon: <AccountTreeIcon />,
     },
+    // {
+    //   path: "/recentWork",
+    //   name: "RecentWork",
+    //   icon: <EngineeringIcon />,
+    // },
     {
-      path: "/recentWork",
-      name: "RecentWork",
-      icon: <EngineeringIcon />,
-    },
-    {
-      path: "/about",
-      name: "About",
+      path: "/Contactme",
+      name: "Contact Me",
       icon: <ContactsIcon />,
     },
   ];

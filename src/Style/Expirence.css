@@ -1,0 +1,177 @@
+* {
+  font-family: "Lato";
+}
+
+.Main_div_outer {
+  display: flex;
+  padding: 40px 40px 40px 40px;
+}
+
+.container_two {
+  background-color: aqua;
+  padding: 30px 30px 30px 30px;
+  height: 70vh;
+  border-top-right-radius: 20px ;
+  border-bottom-right-radius: 20px ;
+  border-right: 5px dashed black;
+  border-top: 5px dashed black;
+  border-bottom: 5px dashed black;
+}
+
+.container_one {
+  background-color: bisque;
+  padding: 30px 30px 30px 30px;
+  height: 70vh;
+  border-top-left-radius: 20px ;
+  border-bottom-left-radius: 20px ;
+  border-right: 2px solid black;
+  border-left: 5px dashed black;
+  border-top: 5px dashed black;
+  border-bottom: 5px dashed black;
+}
+
+.center_align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Heading {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.h1_mano {
+  color: black;
+  font-size: 50px;
+}
+
+.designation {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 40px;
+  align-items: center;
+}
+
+.h2_mano {
+  font-size: 30px;
+}
+
+.tech {
+  font-size: 36px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.p_mano {
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.desc_new {
+  font-size: 36px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.p2_mano {
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.h3_mano {
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.p3_mano {
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.Heading_msa {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.h1_msa {
+  color: black;
+  font-size: 50px;
+}
+
+.designation_msa {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 40px;
+  align-items: center;
+}
+
+.p_teck_stack {
+  font-size: 36px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.p_msa {
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.job_roles_msa {
+  font-size: 36px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.p2_msa {
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.Achivemets {
+  font-size: 36px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.p3_msa {
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.h3_msa {
+  font-size: 30px;
+}
+.h2_msa {
+  font-size: 30px;
+}
