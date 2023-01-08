@@ -5,7 +5,7 @@ import Dashboard from './Pages/Dashboard.js';
 import Expirence from './Pages/Expirence.js';
 import Hobbies from './Pages/Hobbies.js';
 import Projects from './Pages/Projects.js';
-import RecentWork from './Pages/RecentWork.js';
+// import RecentWork from './Pages/RecentWork.js';
 import About from './Pages/About.js';
 
 function App() {
@@ -17,9 +17,9 @@ function App() {
      <Routes>
      <Route path='/' element={<Dashboard/>}/>
      <Route path='/expirence' element={<Expirence/>}/>
-     <Route path='/hobbies' element={<Hobbies/>}/>
+     <Route path='/AboutMe' element={<Hobbies/>}/>
      <Route path='/projects' element={<Projects/>}/>
-     <Route path='/recentWork' element={<RecentWork/>}/>
+     {/* <Route path='/recentWork' element={<RecentWork/>}/> */}
      <Route path='/about' element={<About/>}/>
      </Routes>
      </Slider>
