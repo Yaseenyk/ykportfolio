@@ -10,7 +10,7 @@
 .container_two {
   background-color: aqua;
   padding: 30px 30px 30px 30px;
-  height: 70vh;
+  height: fit-height;
   border-top-right-radius: 20px ;
   border-bottom-right-radius: 20px ;
   border-right: 5px dashed black;
@@ -21,7 +21,7 @@
 .container_one {
   background-color: bisque;
   padding: 30px 30px 30px 30px;
-  height: 70vh;
+  height: fit-height;
   border-top-left-radius: 20px ;
   border-bottom-left-radius: 20px ;
   border-right: 2px solid black;
